@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bs4  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- main css  -->
+    <link rel="stylesheet" href="./index.css">
+    <title>Main HomeWork 4</title>
+</head>
+<body>
+    <div class="homework__title my-5">
+        <h1 class="text-center text-danger">Bài tập chính JS buổi 4</h1>
+    </div>
+    <div class="homework container mt-5">
+        <div class="row">
+            <div class="col-3">
+              <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <!-- BAI 1  -->
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                    BÀI 1
+                </a>
+                <!-- BAI 2 -->
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                    BÀI 2
+
+                </a>
+                <!-- BAI 3 -->
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                    BÀI 3
+                </a>
+                <!-- BAI 4  -->
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                    BÀI 4
+                </a>
+              </div>
+            </div>
+            <div class="col-9">
+              <div class="tab-content" id="v-pills-tabContent">
+                <!-- BAI 1  -->
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <div class="baitap">
+                        <p>Chương trình xuất ra 3 số theo thứ tự tăng dần</p>
+                        <!-- form 1  -->
+                        <form class="form1">
+                            <label for="sothu1">Nhập vào số thứ nhất</label>
+                            <input type="number" name="sohang" id="sothu1">
+                            <br>
+                            <label for="sothu2">Nhập vào số thứ hai</label>
+                            <input type="number" name="sohang" id="sothu2">
+                            <br>
+                            <label for="sothu3">Nhập vào số thứ ba</label>
+                            <input type="number" name="sohang" id="sothu3">
+                            <br>
+                            <!-- btnBai1  -->
+                            <button id="btnBai1" type="button" class="btn btn-success my-4">Xem kết quả</button>
+                        </form>
+                        
+                        <!-- kết quả  -->
+                        <h3 class="text-success">Sắp xếp 3 số theo thứ tự tăng dần : <span id="result1"></span></h3>
+                    </div>
+                </div>
+                <!-- BAI 2  -->
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    BAI 2
+                </div>
+                <!-- BAI 3  -->
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    BAI 3
+                </div>
+                <!-- BAI 4  -->
+                <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                    BAI 4
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <!-- bs4  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <script src="./js/bai1.js"></script>
+</body>
+</html>
