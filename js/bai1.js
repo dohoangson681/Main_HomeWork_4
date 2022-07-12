@@ -1,9 +1,6 @@
-// var sothu1 = document.getElementById("sothu1"); 
-// var sothu2 = document.getElementById("sothu2") ;
-// var sothu3 = document.getElementById("sothu3") ;
-// console.log(sothu1 , sothu2 , sothu3) ; 
+
 function sapxep(){
-    let min = 0   , max = 0 , mid = 0  ; 
+    var min   , max  , mid   ; 
     let sothu1 = document.getElementById("sothu1").value ; 
     let sothu2 = document.getElementById("sothu2").value ; 
     let sothu3 = document.getElementById("sothu3").value ; 
@@ -11,10 +8,8 @@ function sapxep(){
     sothu1 = Number(sothu1) ; 
     sothu2 = Number(sothu2) ; 
     sothu3 = Number(sothu3) ; 
-//    sothu1 = Number(sothu1.value) ;  
-//    sothu2 = Number(sothu2.value) ;
-//    sothu3 = Number(sothu3.value) ;
-   console.log(sothu1 , sothu2 , sothu3) ; 
+    
+  
 
    
     if(sothu1 <= sothu2 && sothu1 <= sothu3){
