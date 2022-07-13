@@ -23,9 +23,10 @@ function check(canh1 , canh2 , canh3){
     }else if( canh1*canh1 + canh2*canh2 == canh3*canh3 || canh1*canh1 + canh3*canh3 == canh2*canh2 || canh2*canh2 + canh3*canh3 == canh1*canh1){
         return "Đây là tam giác vuông" ; 
     }else if(canh1 == canh2 || canh1 == canh3 || canh2 == canh3 ){
-        return "Đây là tam giác đều"; 
+        return "Đây là tam giác cân"; 
     }else {
         return "Đây là tam giác thường"
     }
 
 }
+
